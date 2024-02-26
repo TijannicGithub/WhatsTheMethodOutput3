@@ -10,6 +10,7 @@
             int nextYear;
             int thisMonth;
             int month;
+            int date;
 
             nextYear = ++thisYear + CENTURY % 333;
             thisMonth = leap(nextYear,28);
